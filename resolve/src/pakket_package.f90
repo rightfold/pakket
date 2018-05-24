@@ -3,7 +3,8 @@ MODULE pakket_package
     IMPLICIT NONE
 
     ! A pair of package version bounds limits which package versions can be
-    ! installed.
+    ! installed. The lower bound is inclusive whilst the upper bound is
+    ! exclusive.
     TYPE bounds_t
         INTEGER :: lower
         INTEGER :: upper
