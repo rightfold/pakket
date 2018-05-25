@@ -10,8 +10,8 @@ MODULE pakket_package
         INTEGER :: upper
     END TYPE
 
-    ! A package atom pairs a package with a pair of package version bounds.
-    TYPE atom_t
+    ! A bounded package pairs a package with a pair of package version bounds.
+    TYPE bounded_package_t
         INTEGER :: package
         TYPE(bounds_t) :: bounds
     END TYPE
